@@ -74,6 +74,7 @@ typedef struct binary_tree_s binary_tree_t;
 1. Clone the repository:
 
 git clone https://github.com/l44mz/holbertonschool-binary_trees.git
+
 cd holbertonschool-binary_trees
 
 2. Compile the project:
@@ -85,15 +86,20 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c -o printf
 
 #include "binary_trees.h"
 
+
 int main(void)
 {
+
 binary_tree_t *root;
 
 root = binary_tree_node(NULL, 10);
+
 binary_tree_insert_left(root, 5);
+
 binary_tree_insert_right(root, 15);
 
 return (0);
+
 }
 
 ---
